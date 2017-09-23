@@ -1,0 +1,15 @@
+PODS:
+  - KLCPopup (1.0)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - KLCPopup (~> 1.0)
+  - Toast (~> 3.0)
+
+SPEC CHECKSUMS:
+  KLCPopup: 76c5a19227977f1e53d85236f9ef42257c168d98
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: fbff7e4252ba3b2cb8e8e04dd9d4c022143a10fb
+
+COCOAPODS: 1.3.1
