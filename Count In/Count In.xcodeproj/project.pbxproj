@@ -10,6 +10,10 @@
 		0D325A6DE866D050B1A83332 /* Pods_Count_InUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A811B5255FCAC4E732FB140A /* Pods_Count_InUITests.framework */; };
 		13F140B51A341775E34792DA /* Pods_Count_In.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64EB0D58CC91F2D34326526 /* Pods_Count_In.framework */; };
 		BAFED4D56D4A73170C1FA17E /* Pods_Count_InTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384606124C3BAA0D3B0C9ED7 /* Pods_Count_InTests.framework */; };
+		E876CC631F8C5E9300F08F72 /* RestaurantListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E876CC611F8C5E9300F08F72 /* RestaurantListingTableViewCell.swift */; };
+		E876CC641F8C5E9300F08F72 /* RestaurantListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E876CC621F8C5E9300F08F72 /* RestaurantListingTableViewCell.xib */; };
+		E876CC661F8C5EB900F08F72 /* RestaurantListing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E876CC651F8C5EB900F08F72 /* RestaurantListing.storyboard */; };
+		E876CC681F8C5EEA00F08F72 /* RestaurantListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E876CC671F8C5EEA00F08F72 /* RestaurantListingViewController.swift */; };
 		E8AC9BA11F75DB3A00BC10BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC9BA01F75DB3A00BC10BB /* AppDelegate.swift */; };
 		E8AC9BA61F75DB3A00BC10BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AC9BA41F75DB3A00BC10BB /* Main.storyboard */; };
 		E8AC9BA81F75DB3A00BC10BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AC9BA71F75DB3A00BC10BB /* Assets.xcassets */; };
@@ -45,6 +49,10 @@
 		D2585708562ED2E19D455C33 /* Pods-Count In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Count In.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Count In/Pods-Count In.debug.xcconfig"; sourceTree = "<group>"; };
 		D97E67B22D40633BAF125404 /* Pods-Count In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Count In.release.xcconfig"; path = "Pods/Target Support Files/Pods-Count In/Pods-Count In.release.xcconfig"; sourceTree = "<group>"; };
 		E64EB0D58CC91F2D34326526 /* Pods_Count_In.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Count_In.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E876CC611F8C5E9300F08F72 /* RestaurantListingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListingTableViewCell.swift; sourceTree = "<group>"; };
+		E876CC621F8C5E9300F08F72 /* RestaurantListingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantListingTableViewCell.xib; sourceTree = "<group>"; };
+		E876CC651F8C5EB900F08F72 /* RestaurantListing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RestaurantListing.storyboard; sourceTree = "<group>"; };
+		E876CC671F8C5EEA00F08F72 /* RestaurantListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListingViewController.swift; sourceTree = "<group>"; };
 		E8AC9B9D1F75DB3A00BC10BB /* Count In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Count In.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AC9BA01F75DB3A00BC10BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8AC9BA51F75DB3A00BC10BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -186,6 +194,10 @@
 		E8AC9BD11F75DD1300BC10BB /* Restaurant Listing */ = {
 			isa = PBXGroup;
 			children = (
+				E876CC671F8C5EEA00F08F72 /* RestaurantListingViewController.swift */,
+				E876CC651F8C5EB900F08F72 /* RestaurantListing.storyboard */,
+				E876CC611F8C5E9300F08F72 /* RestaurantListingTableViewCell.swift */,
+				E876CC621F8C5E9300F08F72 /* RestaurantListingTableViewCell.xib */,
 			);
 			name = "Restaurant Listing";
 			sourceTree = "<group>";
@@ -362,6 +374,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8AC9BAB1F75DB3A00BC10BB /* LaunchScreen.storyboard in Resources */,
+				E876CC641F8C5E9300F08F72 /* RestaurantListingTableViewCell.xib in Resources */,
+				E876CC661F8C5EB900F08F72 /* RestaurantListing.storyboard in Resources */,
 				E8AC9BA81F75DB3A00BC10BB /* Assets.xcassets in Resources */,
 				E8AC9BA61F75DB3A00BC10BB /* Main.storyboard in Resources */,
 			);
@@ -540,6 +554,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E876CC681F8C5EEA00F08F72 /* RestaurantListingViewController.swift in Sources */,
+				E876CC631F8C5E9300F08F72 /* RestaurantListingTableViewCell.swift in Sources */,
 				E8AC9BA11F75DB3A00BC10BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
