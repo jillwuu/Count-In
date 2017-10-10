@@ -15,6 +15,7 @@
 		BA2B42FD1F89FA67001CD80F /* RestaurantListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2B42FC1F89FA67001CD80F /* RestaurantListHeaderView.xib */; };
 		BA2B43001F89FF52001CD80F /* RestaurantListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B42FF1F89FF52001CD80F /* RestaurantListHeaderView.swift */; };
 		BA2B43021F89FF9A001CD80F /* RestaurantListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B43011F89FF9A001CD80F /* RestaurantListTableViewCell.swift */; };
+		BA2B43041F8C51B5001CD80F /* RestaurantListingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B43031F8C51B5001CD80F /* RestaurantListingMock.swift */; };
 		BAFED4D56D4A73170C1FA17E /* Pods_Count_InTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384606124C3BAA0D3B0C9ED7 /* Pods_Count_InTests.framework */; };
 		E8AC9BA11F75DB3A00BC10BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC9BA01F75DB3A00BC10BB /* AppDelegate.swift */; };
 		E8AC9BA61F75DB3A00BC10BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AC9BA41F75DB3A00BC10BB /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		BA2B42FC1F89FA67001CD80F /* RestaurantListHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantListHeaderView.xib; sourceTree = "<group>"; };
 		BA2B42FF1F89FF52001CD80F /* RestaurantListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListHeaderView.swift; sourceTree = "<group>"; };
 		BA2B43011F89FF9A001CD80F /* RestaurantListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListTableViewCell.swift; sourceTree = "<group>"; };
+		BA2B43031F8C51B5001CD80F /* RestaurantListingMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantListingMock.swift; sourceTree = "<group>"; };
 		D2585708562ED2E19D455C33 /* Pods-Count In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Count In.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Count In/Pods-Count In.debug.xcconfig"; sourceTree = "<group>"; };
 		D97E67B22D40633BAF125404 /* Pods-Count In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Count In.release.xcconfig"; path = "Pods/Target Support Files/Pods-Count In/Pods-Count In.release.xcconfig"; sourceTree = "<group>"; };
 		E64EB0D58CC91F2D34326526 /* Pods_Count_In.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Count_In.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,23 @@
 				BA2B42FC1F89FA67001CD80F /* RestaurantListHeaderView.xib */,
 			);
 			name = "Cells and Headers";
+			sourceTree = "<group>";
+		};
+		BA2B43051F8C549C001CD80F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B43031F8C51B5001CD80F /* RestaurantListingMock.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		BA2B43061F8C54B8001CD80F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B42F61F89F572001CD80F /* RestaurantListHomeViewController.swift */,
+				BA2B42F81F89F628001CD80F /* RestaurantList.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		C7A571A1B249771A6ED94491 /* Frameworks */ = {
@@ -223,8 +242,8 @@
 		E8AC9BD31F75DD2D00BC10BB /* Restaurant Listing Detail */ = {
 			isa = PBXGroup;
 			children = (
-				BA2B42F61F89F572001CD80F /* RestaurantListHomeViewController.swift */,
-				BA2B42F81F89F628001CD80F /* RestaurantList.storyboard */,
+				BA2B43051F8C549C001CD80F /* Data */,
+				BA2B43061F8C54B8001CD80F /* View */,
 				BA2B42FE1F89FD69001CD80F /* Cells and Headers */,
 			);
 			name = "Restaurant Listing Detail";
@@ -570,6 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8AC9BA11F75DB3A00BC10BB /* AppDelegate.swift in Sources */,
+				BA2B43041F8C51B5001CD80F /* RestaurantListingMock.swift in Sources */,
 				BA2B43021F89FF9A001CD80F /* RestaurantListTableViewCell.swift in Sources */,
 				BA2B43001F89FF52001CD80F /* RestaurantListHeaderView.swift in Sources */,
 				BA2B42F71F89F572001CD80F /* RestaurantListHomeViewController.swift in Sources */,
